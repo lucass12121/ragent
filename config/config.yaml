@@ -1,0 +1,18 @@
+model:
+  name: Qwen/Qwen2.5-7B-Instruct
+  max_new_tokens: 512
+
+training:
+  batch_size: 1
+  num_generations: 4
+  max_iterations: 100
+  max_tool_calls: 10
+  learning_rate: 1e-6
+
+data:
+  train_split: train
+  test_split: test
+
+output:
+  checkpoint_dir: checkpoints/
+  log_dir: logs/

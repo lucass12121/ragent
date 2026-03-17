@@ -1,0 +1,10 @@
+# GPU server (CUDA 12.1)
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch>=2.1.0
+transformers>=4.40.0
+accelerate
+datasets
+gradio
+pytest
+matplotlib
+peft

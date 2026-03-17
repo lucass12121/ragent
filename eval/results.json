@@ -1,0 +1,23 @@
+{
+  "baseline": {
+    "success_rate": 0.6,
+    "avg_reward": 1.43,
+    "avg_tool_calls": 5.0,
+    "pass_at_1": 0.2,
+    "timeout_rate": 0.0
+  },
+  "trained": {
+    "success_rate": 0.6,
+    "avg_reward": 1.44,
+    "avg_tool_calls": 5.2,
+    "pass_at_1": 0.4,
+    "timeout_rate": 0.0
+  },
+  "improvement": {
+    "success_rate": 0.0,
+    "avg_reward": 0.6993006993007,
+    "avg_tool_calls": 4.0000000000000036,
+    "pass_at_1": 100.0,
+    "timeout_rate": 0.0
+  }
+}
